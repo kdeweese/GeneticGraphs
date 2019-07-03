@@ -1,0 +1,11 @@
+<ParameterList name="Belos">
+  
+  <Parameter name="Block Size Factor" type="int" value="1"/>
+  <Parameter name="Maximum Iterations" type="int" value="-1"/>
+  <Parameter name="Convergence Tolerance" type="double" value="1.0e-9"/>
+  <Parameter name="Verbosity" type="int" value="4"/>
+  <Parameter name="Output Frequency" type="int" value="-1"/>
+  <Parameter name="Laplacian" type="bool" value="true"/>
+    
+</ParameterList>
+      

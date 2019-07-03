@@ -1,0 +1,19 @@
+<ParameterList name="Ifpack2">
+  <Parameter name="Preconditioner" type="string" value="SCHWARZ"/>
+  <Parameter name="schwarz: inner preconditioner name" type="string" value="RILUK"/>
+
+  <Parameter name="schwarz: combine mode" type="string" value="Add"/>
+  <Parameter name="schwarz: use reordering" type="bool" value="true"/>
+  <Parameter name="schwarz: overlap level" type="int" value="0"/>
+  <Parameter name="schwarz: filter singletons" type="bool" value="false"/>
+  <ParameterList name="schwarz: reordering list">
+    <Parameter name="order_method" type="string" value="minimum_degree"/>
+  </ParameterList>
+
+  <ParameterList name="schwarz: inner preconditioner parameters">
+      <Parameter name="fact: absolute threshold" type="double" value="0.001"/>
+      <Parameter name="fact: relative threshold" type="double" value="1.001"/>
+  </ParameterList>
+    
+</ParameterList>
+      

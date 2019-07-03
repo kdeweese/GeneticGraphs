@@ -1,0 +1,8 @@
+<ParameterList name="Ifpack2">
+  
+  <Parameter name="Amesos2 solver name" type="string" value="KLU2"/>  
+  <ParameterList name="Amesos2">
+
+  </ParameterList>
+</ParameterList>
+      

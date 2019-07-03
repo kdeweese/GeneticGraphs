@@ -1,0 +1,9 @@
+<ParameterList name="Ifpack2">
+  
+  <Parameter name="fact: absolute threshold" type="double" value=".001"/>
+  <Parameter name="fact: relative threshold" type="double" value="1.001"/>
+  <!--<Parameter name="fact: relax value" type="double" value=".1"/> -->
+  <Parameter name="Preconditioner" type="string" value="RILUK"/>
+  <!--<Parameter name="fact: drop tolerance" type="double" value="1e-15"/>--> 
+</ParameterList>
+      

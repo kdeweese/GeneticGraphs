@@ -1,0 +1,7 @@
+<ParameterList name="Ifpack2">
+
+  <Parameter name="relaxation: type" type="string" value="Jacobi"/>
+  <Parameter name="relaxation: fix tiny diagonal entries" type="bool" value="true"/>
+    
+</ParameterList>
+      

@@ -1,0 +1,6 @@
+<ParameterList name="Ifpack2">
+  <Parameter name="fact: absolute threshold" type="double" value="1.01"/>
+  <Parameter name="fact: relative threshold" type="double" value="1.2"/>
+  <Parameter name="Preconditioner" type="string" value="ILUT"/>
+</ParameterList>
+      

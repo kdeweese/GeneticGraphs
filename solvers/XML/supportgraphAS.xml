@@ -1,0 +1,22 @@
+<ParameterList name="Ifpack2">
+  <Parameter name="Preconditioner" type="string" value="SCHWARZ"/>
+  <Parameter name="inner preconditioner name" type="string" value="SUPPORTGRAPH"/>
+
+  <Parameter name="schwarz: combine mode" type="string" value="Add"/>
+  <Parameter name="schwarz: use reordering" type="bool" value="true"/>
+  <Parameter name="schwarz: overlap level" type="int" value="0"/>
+
+  <ParameterList name="schwarz: reordering list">
+    <Parameter name="order_method" type="string" value="minimum_degree"/>
+  </ParameterList>
+
+  <ParameterList name="inner preconditioner parameters">
+      <Parameter name="fact: absolute threshold" type="double" value="0.001"/>
+      <Parameter name="fact: relative threshold" type="double" value="1.001"/>
+      <Parameter name="MST: randomize" type="int" value="1"/>
+      <Parameter name="MST: keep diagonal" type="double" value="1"/>
+      <Parameter name="MST: forest number" type="int" value="1"/>
+  </ParameterList>
+    
+</ParameterList>
+      

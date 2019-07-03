@@ -1,0 +1,9 @@
+<ParameterList name="Ifpack2">
+
+  <Parameter name="relaxation: type" type="string" value="Symmetric Gauss-Seidel"/>
+  <Parameter name="relaxation: fix tiny diagonal entries" type="bool" value="true"/>
+  <Parameter name="relaxation: check diagonal entries" type="bool" value="true"/>
+  <Parameter name="relaxation: use l1" type="bool" value="true"/>
+    
+</ParameterList>
+      
